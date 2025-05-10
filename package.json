@@ -1,0 +1,11 @@
+{
+  "name": "my-cgx-project",
+  "version": "1.0.0",
+  "description": "My project in CGX",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
