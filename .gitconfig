@@ -1,0 +1,11 @@
+[user]
+name = xingxerx
+email = xingxerx@gmail.com
+[core]
+autocrlf = input
+editor = core --wait
+[filter "lfs]
+clear = git -lfs clean -- %f 
+smudge - git-lfs smudge --%f 
+process = git-lfs filter-process
+required = true
